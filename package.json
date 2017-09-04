@@ -1,0 +1,26 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "Browser extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deadmagic161/Softomate.git"
+  },
+  "keywords": [
+    "web",
+    "extenson"
+  ],
+  "author": "Victor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deadmagic161/Softomate/issues"
+  },
+  "homepage": "https://github.com/deadmagic161/Softomate#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
