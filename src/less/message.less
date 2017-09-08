@@ -1,0 +1,43 @@
+@import "variables";
+
+.message {
+  &__block {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: @colorRed;
+    position: fixed;
+    top: 0;
+    right: 300px;
+    z-index: 99999;
+
+    & > h3 {
+      background-color: rgba(0,0,0,0.1);
+      color: @colorWhite;
+      margin: 0;
+      text-align: center;
+      font-size: @title-h3-size;
+    }
+  }
+
+  &__button-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 500px;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  &__button {
+    color: @colorWhite;
+    font-size: @button-font-size;
+    cursor: pointer;
+
+    &:hover {
+      color: @colorBlack;
+      transition: color .5s;
+    }
+  }
+}
