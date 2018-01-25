@@ -1,3 +1,9 @@
 # Softomate
  Browser extension
-# # Для запуска сборки стилей запустить команду gulp
+h1 Для сборки расширения нужно выполнить несколько команд
+----
+```javascript
+npm instal
+npm install gulp -g
+gulp
+```
